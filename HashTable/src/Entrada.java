@@ -22,6 +22,12 @@ public class Entrada<K,V> {
 	public void setValor(V valor) {
 		this.valor = valor;
 	}
+	@Override
+	public String toString() {
+		return "Entrada [llave=" + llave + ", valor=" + valor + "]";
+	}
+	
+	
 	
 
 }

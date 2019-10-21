@@ -2,8 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		
-		HashTable<Alumno,Double> hashTable= new HashTable<>();
+		HashTable<Alumno,Double> hashTable= new HashTable<Alumno,Double>();
 		hashTable.imprimir();
 		Alumno a= new Alumno("Andrés","A01211914","Torres");
 		Alumno a2= new Alumno("Juan","A01111714","Pérez");
